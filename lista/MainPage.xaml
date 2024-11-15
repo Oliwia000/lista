@@ -15,6 +15,7 @@
             <Grid ColumnDefinitions="*, Auto" 
                   Padding="16">
                 <Entry Grid.Column="0" 
+                       BackgroundColor="Aqua"
                        Placeholder="Nowe zadanie" 
                        Text="{Binding NewTaskDescription}" 
                        TextColor="Black"/>
